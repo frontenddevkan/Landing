@@ -2,12 +2,18 @@
 @font-face {
     font-family: 'Inika';
     src: url(../fonts/Inika.woff2) format("woff2");
-    font-family: 'Inika-Bold';
+}
+@font-face {    font-family: 'Inika-Bold';
    src: url(../fonts/Inika-Bold.woff2) format("woff2");
-    font-family: 'Inter-Regular';
+}
+@font-face {   font-family: 'Inter-Regular';
    src: url(../fonts/Inter-Regular.woff2) format("woff2");
-
     }
+
+/* font-family: 'Inika', sans-serif;
+   font-family: 'Inika-Bold', sans-serif;
+   font-family: 'Inter-Regular', sans-serif;
+    */
 
     :root {
 
