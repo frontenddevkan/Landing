@@ -19,15 +19,14 @@
     }
 
     :root {
-    --color-white: #EDF2EC;
+
     --color-orange: #E06733;
     --color-green: #499A18;
     --color-total-black: #000000;
-    --color-black: #010201;
+    --color-links-nav-black: #010201;
     --color-grey: #717171;
-    --color-exelent-white: #F5F5F5;
-    --color-brown: #E3E1D5;
-    --color-light-green: #D6E7D2;
+    --color-second-grey: #636060;
+    --color-bg-section: #EDF2EC;
     }
 
 html{
