@@ -1,20 +1,11 @@
 
 @font-face {
     font-family: 'Inika';
-    font-style: normal;
-    font-weight: 400;
-    src: url(../fonts/Inika.woff2);
-}
-    @font-face {
+    src: url(../fonts/Inika.woff2) format("woff2");
     font-family: 'Inika-Bold';
-    font-weight: 700;
-    src: url(../fonts/Inika-Bold.woff2);
-    }
-
-    @font-face { font-family: 'Inter-Regular';
-    font-style: normal;
-    font-weight: 400;
-    src: url(../fonts/Inter-Regular.woff2);
+   src: url(../fonts/Inika-Bold.woff2) format("woff2");
+    font-family: 'Inter-Regular';
+   src: url(../fonts/Inter-Regular.woff2) format("woff2");
 
     }
 
