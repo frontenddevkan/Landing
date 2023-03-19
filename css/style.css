@@ -1,4 +1,6 @@
-
+* {
+    margin: 0;
+}
 @font-face {
     font-family: 'Inika';
     src: url(../fonts/Inika.woff2) format("woff2");
@@ -26,11 +28,13 @@
     --color-bg-section: #EDF2EC;
     }
 
-html{
+html {
     box-sizing: border-box;
-    padding: 0;
+    margin-top: 0px;
     scroll-behavior: smooth;
+    padding-top: 0px;
 }
+
 
  *::after,
  *::before{
@@ -42,23 +46,13 @@ html{
     text-decoration: none;
  }
 
- .container {
-    max-width: 1440px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    margin: 0 auto;
-
- }
-
-
 
  /* для таблетов до 768п  */
 
 @media (max-width: 768px) {
     .container {
     width: 100%;
-    min-heigth: 116px;
+    min-height: 116px;
     transition: 0.2s all;
 
 }
@@ -66,31 +60,35 @@ html{
 /*flex-wrap: wrap; - при адаптации*/
 
 
-    body {
-        margin: 0;
 
-}
 
-.main {
-    margin: 0px;
-}
 /*                HEADER!!!!!!!!!!!!!!!!!!                             */
 
 .header {
     height: 134px;
     background: #EDF2EC;
+    margin: 0;
+    padding-top: 42px;
+    padding-left: 111px;
 
 }
 
-
+.container {
+    max-width: 1440px;
+    margin-top: 0px;
+}
 
 .navbar {
     width: 1220px;
     height: 50px;
-    margin: 42px 109px 42px 111px;
-    display: flex;
+
+   display: flex;
+    flex-direction: row;
     justify-content: space-between;
+
+
 }
+
 
 /* для такблетов до 768п  */
 

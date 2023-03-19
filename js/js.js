@@ -1,12 +1,9 @@
-const userName = 'Kate'; // string
-const p = 3.14; // number
 
+function sayHi(naming){
+    console.log(`Hi! ${naming} !! how are you???`);
+}
 
-console.log(userName + ' and ' + p);
+sayHi('апельсин');
 
-let age = 30; // nubmer
-
-let ages = '30' // string
-
-let isMarried = true //boolean
+// null - обнуляет переменную
 
