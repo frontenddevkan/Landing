@@ -76,6 +76,8 @@ html {
 .container {
     max-width: 1440px;
     margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .navbar {
@@ -158,13 +160,14 @@ font-weight: 700;
 
     }
 
-.welcome-section {
+.welcome__wrapper {
     width: 1222px;
     height: 407px;
     display: flex;
     justify-content: space-between;
-    margin: 0px 109px;
+   padding: 62px 109px;
 }
+
 /* для такблетов до 768п  */
 
 @media (max-width: 768px) {
@@ -206,7 +209,7 @@ font-weight: 700;
         }
 
 
-.welcome-div {
+.welcome__text {
     width: 549px;
     height: 340px;
     margin-left: 224px;

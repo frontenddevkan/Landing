@@ -1,9 +1,9 @@
 
 function sayHi(naming){
-    console.log(`Hi! ${naming} !! how are you???`);
+    console.log(1.15 + 2.30);
 }
 
-sayHi('апельсин');
-
+sayHi();
+console.log(1.15 + 2.30);
 // null - обнуляет переменную
 
