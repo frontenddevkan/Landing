@@ -47,20 +47,6 @@ html {
  }
 
 
- /* для таблетов до 768п  */
-
-@media (max-width: 768px) {
-    .container {
-    width: 100%;
-    min-height: 116px;
-    transition: 0.2s all;
-
-}
-}
-/*flex-wrap: wrap; - при адаптации*/
-
-
-
 
 /*                HEADER!!!!!!!!!!!!!!!!!!                             */
 
@@ -68,8 +54,7 @@ html {
     height: 134px;
     background: #EDF2EC;
     margin: 0;
-    padding-top: 42px;
-    padding-left: 111px;
+    padding: 42px 103px 42px 102px;
 
 }
 
@@ -80,27 +65,79 @@ html {
     margin-right: auto;
 }
 
-.navbar {
-    width: 1220px;
-    height: 50px;
+@media (max-width: 1322px) {
+    .container {
+        width: 1101px;
+    }
+}
 
-   display: flex;
+@media (max-width: 1199px) {
+    .container {
+        width: 960px;
+    }
+}
+
+@media (max-width: 991px) {
+    .container {
+        width: 720px;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        width: 540px;
+    }
+}
+
+@media (max-width: 575px) {
+    .container {
+        width: 100%;
+    }
+}
+
+.navbar {
+    width: 1225px;
+    height: 50px;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
 
-
 }
 
+@media (max-width: 1341px) {
+    .navbar {
+        width: 1100px;
+    }
+}
 
+@media (max-width: 1243px) {
+    .navbar {
+        width: 960px;
+    }
+}
+
+@media (max-width: 1071px) {
+    .navbar {
+        width: 720px;
+    }
+}
+
+/* @media (max-width: 849px) {
+    .navbar {
+        width: 540px;
+       height: auto;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 575px) {
+    .navbar {
+        width: 100%;
+    }
+}
 /* для такблетов до 768п  */
 
-@media (max-width: 768px) {
-.navbar {
-    width: 668px;
 
-}
-
-}
 
 .nav {
 width: 452px;
@@ -120,6 +157,11 @@ a {
     display: flex;
     justify-content: space-around;
     list-style: none;
+
+}
+
+.ul-nav:last-child {
+    margin-right: 0;
 }
 
 .ul-nav:hover {
@@ -141,56 +183,30 @@ font-weight: 700;
 
 
 /*                BLOCK WELCOME!!!!!!!!!!!!!!!!!!!!!                        */
-/* для таблетов до 768п  */
+
 
 
 .welcome {
-
     height: 532px;
     background-color: var(--color-white);
-    margin: 0px;
 
 }
 
-@media (max-width: 768px) {
-    .welcome {
-        width: 100%;
-
-    }
-
-    }
 
 .welcome__wrapper {
-    width: 1222px;
+
     height: 407px;
     display: flex;
-    justify-content: space-between;
-   padding: 62px 109px;
+    justify-content: space-around;
+    padding: 62px 109px;
 }
 
-/* для такблетов до 768п  */
 
-@media (max-width: 768px) {
-    .welcome-section {
-        width: 100%;
-
-    }
-
-}
 .wrapper-leafs {
     width: 448px;
     height: 407px;
 
 }
-
-@media (max-width: 768px) {
-    .wrapper-leafs {
-        width: 346px;
-        height: 310px;
-
-    }
-
-    }
 
 .img-container {
     background-image: url(../img/leafs.png);
@@ -200,30 +216,13 @@ font-weight: 700;
 
     }
 
-    @media (max-width: 768px) {
-        .img-container {
-            width: 280px;
-            height: 254px;
-        }
-
-        }
-
 
 .welcome__text {
     width: 549px;
     height: 340px;
-    margin-left: 224px;
+    margin-left: 220px;
 }
 
-
-@media (max-width: 768px) {
-    .welcome-div {
-        width: 346px;
-        height: 310px;
-
-    }
-
-    }
 
 
 .green-span {
