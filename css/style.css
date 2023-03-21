@@ -731,29 +731,36 @@ flex-direction: row;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-left: 109px;
-    margin-top: 40px;
+    margin-left: auto;
+    margin-top: auto;
+    padding-top: 30px;
 
 }
 
 .copyright {
-    width: 182px;
+    width: 250px;
     height: 50px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     font: 400 20px/2.5 'Inter-Regular';
     margin-left: 0px;
 
 }
 
+.email-contact, .cop {
+    font-size: 14px;
+
+}
+.copyright__icon-mail {
+    display: flex;
+    flex-direction: row;
+}
 .school {
 width: 211px;
 height: 50px;
 margin-left: 324px;
 margin-right: 317px;
-
-
 
 }
 
