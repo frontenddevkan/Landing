@@ -253,7 +253,7 @@ font-weight: 700;
 
 .container {
     max-width: 1100px;
-    margin: 0px auto;
+
 
 }
 .welcome__wrapper {
@@ -296,7 +296,7 @@ font-weight: 700;
 
             .container {
                 max-width: 1000px;
-                margin: 0px auto;
+
 
             }
             .welcome__wrapper {
@@ -332,7 +332,7 @@ font-weight: 700;
 
             .container {
                 max-width: 900px;
-                margin: 0px auto;
+
 
             }
             .welcome__wrapper {
@@ -368,7 +368,7 @@ font-weight: 700;
 
         .container {
             max-width: 800px;
-            margin: 0px auto;
+
 
         }
         .welcome__wrapper {
@@ -403,7 +403,7 @@ font-weight: 700;
 
         .container {
             max-width: 700px;
-            margin: 0px auto;
+
 
         }
         .welcome__wrapper {
@@ -417,13 +417,13 @@ font-weight: 700;
             }
 
         .welcome__text {
-            width: 300px;
+            width: 200px;
             margin-left: 90px;
         }
 
 
         .title {
-           font-size: 20px;
+           font-size: 15px;
 
         }
     }
