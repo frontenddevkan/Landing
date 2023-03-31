@@ -4,12 +4,19 @@
 @font-face {
     font-family: 'Inika';
     src: url(../fonts/Inika.woff2) format("woff2");
+    font-display: swap;
+
+
 }
 @font-face {    font-family: 'Inika-Bold';
    src: url(../fonts/Inika-Bold.woff2) format("woff2");
+   font-display: swap;
+
 }
 @font-face {   font-family: 'Inter-Regular';
    src: url(../fonts/Inter-Regular.woff2) format("woff2");
+   font-display: swap;
+
     }
 
 /* font-family: 'Inika', sans-serif;
@@ -428,21 +435,69 @@ font-weight: 700;
         }
     }
 
-    @media (max-width: 991px) {
-        .navbar {
-            width: 690px;
-        }
-
-       }
 
     @media (max-width: 816px) {
-        .navbar {
-            width: 611px;
+        .welcome {
+            width: 600px;
         }
-    }
+
+        .container {
+            max-width: 600px;
+
+
+        }
+        .welcome__wrapper {
+            padding: 8px 8px;
+        }
+
+        .img-container {
+            width: 200px;
+            height: 145px;
+
+            }
+
+        .welcome__text {
+            width: 140px;
+            margin-left: 40px;
+        }
+
+
+        .title {
+           font-size: 15px;
+
+        }
 }
 
     @media (max-width: 767px)
+    .welcome {
+        width: 500px;
+    }
+
+    .container {
+        max-width: 600px;
+
+
+    }
+    .welcome__wrapper {
+        padding: 8px 8px;
+    }
+
+    .img-container {
+        width: 200px;
+        height: 145px;
+
+        }
+
+    .welcome__text {
+        width: 140px;
+        margin-left: 40px;
+    }
+
+
+    .title {
+       font-size: 15px;
+
+    }
 /****************************************************/
 
 .welcome {
